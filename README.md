@@ -1,6 +1,7 @@
 # Behavior-Classification-of-Exposition-Visitors
 馬拉松運動博覽會參訪動線類別預測 (Behavior Classification of Exposition Visitors)
 * The goal of project is to predict the best route among five routing options.
+* Team member: Jack Liu, Barron Chang, 
 ![marathon-map](https://user-images.githubusercontent.com/61014449/174948539-169eeafc-61fc-47c5-8aca-5f1fad7a493a.png)
 
 ## Data
@@ -30,10 +31,13 @@ Dataset consists of "sniffer_loc", "created_time". We focus on using the informa
 </p>
 
 ## Final Rank 
+* **Our team reaches the top-3 on this leader board.**
 * The statistics on Aidea platform by **2022.6.13**
 <p align="center">
   <img src="https://github.com/Jack24658735/Behavior-Classification-of-Exposition-Visitors/blob/main/final_rank.png" />
 </p>
+
+
 
 ## Others
 Other details and discussion are stored in the .pdf file. Please find reference there if you're interested.
