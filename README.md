@@ -31,7 +31,9 @@ Dataset consists of "sniffer_loc", "created_time". We focus on using the informa
 
 ## Final Rank 
 * The statistics on Aidea platform by **2022.6.13**
-
+<p align="center">
+  <img src="https://github.com/Jack24658735/Behavior-Classification-of-Exposition-Visitors/blob/main/final_rank.png" />
+</p>
 
 ## Others
 Other details and discussion are stored in the .pdf file. Please find reference there if you're interested.
