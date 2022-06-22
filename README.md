@@ -6,9 +6,33 @@
 ## Data
 Dataset consists of "sniffer_loc", "created_time". We focus on using the information about "sniffer_loc".
 
-## Model architecture
+## Model Architecture
 1. RandomForest
-2. LSTM/RNN
-3. CatBoost
-4. Transformer-based (BERT & XLNet)
+    * Ensemble of multiple decision trees (tree-based)
+3. LSTM/RNN
+    * Traditional sequence prediction method
+4. CatBoost
+    * Gradient boosting tree-based method
+5. Transformer-based (BERT & XLNet)
+    * With the help of **Multi-head self attention** mechanism
+
+<img src="https://github.com/Jack24658735/Behavior-Classification-of-Exposition-Visitors/blob/main/bert%20arch.png"><img src="https://github.com/Jack24658735/Behavior-Classification-of-Exposition-Visitors/blob/main/xlnet%20arch.png" />
+
+***Note: Under our attempts, we found that transformer-based models have better result and may have higher potential***
+
+## Ablation Test & parameters setting
+<p align="center">
+  <img src="https://github.com/Jack24658735/Behavior-Classification-of-Exposition-Visitors/blob/main/eval.png" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/Jack24658735/Behavior-Classification-of-Exposition-Visitors/blob/main/hyper_parameter_set.png" />
+</p>
+
+## Final Rank 
+* The statistics on Aidea platform by **2022.6.13**
+
+
+## Others
+Other details and discussion are stored in the .pdf file. Please find reference there if you're interested.
 
